@@ -52,7 +52,6 @@ class Interfaz {
                                         <a href="${evento.url}" target="_blank" class="btn btn-primary btn-block mt-4">Comprar Boletos</a>  
                                    </div>
                               </div>
-
                          </div>
                     </div>
                `;
@@ -61,7 +60,7 @@ class Interfaz {
      // Limpia los resultados previos
      limpiarResultados() {
           this.listado.innerHTML = '';
-     }
+     }_
      // Método para imprimir mensajes: 2 parametros, mensaje y clases
      mostrarMensaje(mensaje, clases) {
           const div = document.createElement('div');
